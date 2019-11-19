@@ -5,6 +5,7 @@
 }
 
 .app {
+  /* color: white; */
   display: flex;
   background: #141527;
   height: 100vh;
