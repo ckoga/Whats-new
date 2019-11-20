@@ -1,0 +1,9 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button {
+  height: 40px;
+  font-size: 1em;
+}

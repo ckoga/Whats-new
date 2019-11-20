@@ -6,9 +6,33 @@
 
 .app {
   /* color: white; */
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: auto;
+  grid-template-areas:
+  'header header header'
+  'nav section section'
+  'nav section section'
+  'nav section section';
+  /* 'nav section section section'
+  'nav section section section'; */
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
   background: #141527;
-  height: 100vh;
-  text-align: center;
+  /* height: 100vh; */
   width: 100%;
 }
+
+.header {
+  grid-area: header;
+}
+
+h1 {
+  color: white;
+}
+
+aside {
+  grid-area: nav;
+}
+

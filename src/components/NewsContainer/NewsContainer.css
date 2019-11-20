@@ -1,0 +1,4 @@
+.newsContainer {
+  grid-area: section;
+  columns: 2;
+}
