@@ -4,6 +4,17 @@
 }
 
 .nav-button {
+  background: #141527;
+  border: none;
+  color: white;
   height: 40px;
   font-size: 1em;
+  margin: 5px 10px;
+  border-radius: 0 20px 20px 0;
+  width: 90%;
+}
+
+.nav-button:hover {
+  background-color: #FEAD00;
+  cursor: pointer;
 }
