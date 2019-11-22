@@ -24,13 +24,15 @@ class App extends Component {
     fetch('https://whats-new-api.herokuapp.com/api/v1/news')
       .then(response => response.json())
       .then(data => {
-        this.setState({ news: data });
-        this.pickCategory('local');
+        this.setState({ news: data, displayedNews: local, categoryName: local });
+        // this.pickCategory('local');
       })
       .catch(error => console.log(error))
   }
 
   pickCategory = (category) => {
+    console.log(this.state.news)
+
     this.setState({displayedNews: this.state.news[category]})
 
     this.setState({categoryName: this.state.news[category]})
