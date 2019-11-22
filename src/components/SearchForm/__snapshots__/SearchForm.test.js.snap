@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should be able to render SearchForm to the DOM 1`] = `
+<form>
+  <input
+    className="input"
+    placeholder="Search News"
+  />
+  <button
+    className="search-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+</form>
+`;

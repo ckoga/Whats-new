@@ -5,9 +5,35 @@
 }
 
 .app {
-  display: flex;
   background: #141527;
-  height: 100vh;
-  text-align: center;
-  width: 100%;
+}
+
+section {
+  display: flex;
+}
+
+.header {
+  align-items: center;
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+h1 {
+  color: white;
+  margin: 15px;
+}
+
+aside {
+  width: 60%;
+}
+
+.article-container {
+  columns: 2;
+  padding: 0 5px 0 5px;
+}
+
+.new {
+  color: #fead00;
 }

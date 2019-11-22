@@ -1,0 +1,16 @@
+article {
+  break-inside: avoid;
+  grid-area: article;
+  background: aliceblue;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+article:hover {
+  border: 3px solid #fead00;
+}
+
+img {
+  width: 80%;
+}

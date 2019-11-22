@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should be able to render NewsContainer to the DOM 1`] = `
+Array [
+  <NewsArticle
+    key="article 0"
+    news={
+      Object {
+        "description": "A little bit of news",
+        "headline": "Small News",
+        "id": 1,
+        "img": "pic1",
+        "url": "www.example.com",
+      }
+    }
+  />,
+  <NewsArticle
+    key="article 1"
+    news={
+      Object {
+        "description": "Some news",
+        "headline": "Medium News",
+        "id": 2,
+        "img": "pic2",
+        "url": "www.example2.com",
+      }
+    }
+  />,
+  <NewsArticle
+    key="article 2"
+    news={
+      Object {
+        "description": "A lot of news",
+        "headline": "Big news",
+        "id": 3,
+        "img": "pic3",
+        "url": "www.example3.com",
+      }
+    }
+  />,
+]
+`;
