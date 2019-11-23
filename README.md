@@ -12,7 +12,7 @@ then:
 ```npm start```
 If everything was installed correctly you will see:
 
-```Compiled successfully!
+Compiled successfully!
 
 You can now view whats-new in the browser.
 
