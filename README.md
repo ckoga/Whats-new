@@ -11,7 +11,7 @@ Fork and clone down the repository, then install the dependencies run:
 then:
 ```npm start```
 If everything was installed correctly you will see:
-
+```
 Compiled successfully!
 
 You can now view whats-new in the browser.
@@ -21,5 +21,9 @@ You can now view whats-new in the browser.
 
 Note that the development build is not optimized.
 To create a production build, use npm run build.
+```
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/45470456/69471683-4215ca80-0d5f-11ea-9c73-419b12bd3d41.png)
+
+authored by: Colin Koga
