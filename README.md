@@ -11,6 +11,7 @@ Fork and clone down the repository, then install the dependencies run:
 then:
 ```npm start```
 If everything was installed correctly you will see:
+
 ```Compiled successfully!
 
 You can now view whats-new in the browser.
@@ -19,6 +20,6 @@ You can now view whats-new in the browser.
   On Your Network:  http://10.1.3.3:3000/
 
 Note that the development build is not optimized.
-To create a production build, use npm run build.```
+To create a production build, use npm run build.
 
 ## Screenshot
